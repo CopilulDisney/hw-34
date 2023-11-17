@@ -1,0 +1,9 @@
+.time {
+    align-items: center;
+    justify-content: center;
+}
+.button1,
+.button2 {
+    align-items: center;
+    justify-content: space-between;
+}
