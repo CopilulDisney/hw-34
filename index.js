@@ -42,5 +42,5 @@ function showCurrentTime () {
     currentTime.getSeconds();
 
     const timeString = `${hours}:${minutes}:${seconds}`;
-    alert(timeString)
+    document.getElementById('currentTime').innerHTML = `Current Time: ${timeString}`
 }
